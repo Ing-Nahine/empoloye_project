@@ -1,0 +1,38 @@
+# Environnement virtuel
+venv/
+env/
+ENV/
+*.env
+
+# Fichiers Python compilés
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Bases de données temporaires
+*.sqlite3
+
+# Fichiers de log
+*.log
+
+# Configuration de l’éditeur
+.vscode/
+.idea/
+*.swp
+
+# Fichiers de migration inutiles (optionnel)
+**/migrations/*.pyc
+**/migrations/__pycache__/
+
+# Dossiers de cache
+*.cache/
+.cache/
+.pytest_cache/
+
+# Clés secrètes ou fichiers sensibles
+.env
+secrets.json
+
+# fichiers médias et statiques (optionnel selon ton projet)
+media/
+staticfiles/
